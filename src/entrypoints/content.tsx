@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 
-import { StretchBreakCard } from '@/components/shared/stretch-break-card';
+import { OverlayPlaceholder } from '@/entrypoints/content/overlay-placeholder';
 import '@/styles/globals.css';
 
 /**
@@ -12,9 +12,8 @@ export default defineContentScript({
     // Placeholder overlay container for future message-driven reminder UI.
     const container = document.createElement('div');
     container.id = 'stretch-break-overlay';
-    container.className = 'fixed right-4 top-4 z-[2147483647]';
     document.body.appendChild(container);
 
-    createRoot(container).render(<StretchBreakCard />);
+    createRoot(container).render(<OverlayPlaceholder />);
   }
 });
