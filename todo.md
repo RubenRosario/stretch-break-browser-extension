@@ -70,35 +70,35 @@
 
 ## 3) Shared Domain Models (Types)
 
-- [ ] Create `src/shared/` module boundary
-- [ ] Define categories enum:
-  - [ ] neck
-  - [ ] shoulders
-  - [ ] wrists
-  - [ ] back
-  - [ ] legs
-  - [ ] feet
-  - [ ] eyes
-- [ ] Define `Settings` type + defaults:
-  - [ ] `remindersEnabled` (default `true`)
-  - [ ] `reminderIntervalMinutes` (default `30`)
-  - [ ] `snoozeMinutes` (default `5`)
-  - [ ] `stretchDurationSeconds` (default `30`)
-  - [ ] `activeStart` (default `"09:00"`)
-  - [ ] `activeEnd` (default `"18:00"`)
-  - [ ] `disabledSuggestionCategories` (default `[]`)
-- [ ] Define `Stretch` model:
-  - [ ] `id`
-  - [ ] `name`
-  - [ ] `category`
-  - [ ] `gifUrl`
-  - [ ] `instructions` (English-only)
-- [ ] Define message protocol types:
-  - [ ] Popup/Content → Background commands
-  - [ ] Background → Content UI messages
-- [ ] Tests:
-  - [ ] Defaults match expected values
-  - [ ] Categories validate correctly
+- [x] Create `src/shared/` module boundary
+- [x] Define categories enum:
+  - [x] neck
+  - [x] shoulders
+  - [x] wrists
+  - [x] back
+  - [x] legs
+  - [x] feet
+  - [x] eyes
+- [x] Define `Settings` type + defaults:
+  - [x] `remindersEnabled` (default `true`)
+  - [x] `reminderIntervalMinutes` (default `30`)
+  - [x] `snoozeMinutes` (default `5`)
+  - [x] `stretchDurationSeconds` (default `30`)
+  - [x] `activeStart` (default `"09:00"`)
+  - [x] `activeEnd` (default `"18:00"`)
+  - [x] `disabledSuggestionCategories` (default `[]`)
+- [x] Define `Stretch` model:
+  - [x] `id`
+  - [x] `name`
+  - [x] `category`
+  - [x] `gifUrl`
+  - [x] `instructions` (English-only)
+- [x] Define message protocol types:
+  - [x] Popup/Content → Background commands
+  - [x] Background → Content UI messages
+- [x] Tests:
+  - [x] Defaults match expected values
+  - [x] Categories validate correctly
 
 ---
 
