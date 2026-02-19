@@ -39,14 +39,14 @@
 - [x] Create shared UI components folder:
   - [x] `Button`
   - [x] `Card`
-  - [ ] `Switch`
-  - [ ] `Input`
-  - [ ] `Select`
-- [ ] Add a “hello UI” Popup screen using shadcn components
-- [ ] Add a minimal Overlay placeholder UI (no logic)
-- [ ] Test:
-  - [ ] Popup renders title text
-  - [ ] Overlay component renders in a “stub mode”
+  - [x] `Switch`
+  - [x] `Input`
+  - [x] `Select`
+- [x] Add a “hello UI” Popup screen using shadcn components
+- [x] Add a minimal Overlay placeholder UI (no logic)
+- [x] Test:
+  - [x] Popup renders title text
+  - [x] Overlay component renders in a “stub mode”
 
 ---
 

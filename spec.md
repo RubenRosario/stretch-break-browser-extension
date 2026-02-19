@@ -24,6 +24,8 @@ The extension:
 - Language: **TypeScript**
 - UI: **React**
 - Styling: **Tailwind CSS + shadcn/ui**
+- shadcn/ui setup: **Install components via shadcn CLI (`pnpm dlx shadcn@latest add ...`)**
+- shadcn/ui setup constraint: **Manual component setup is not allowed**
 - Overlay isolation: **Shadow DOM**
 - Manifest: **MV3**
 - Storage: `chrome.storage.local`
