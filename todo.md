@@ -52,19 +52,19 @@
 
 ## 2) Testing Harness
 
-- [ ] Setup Vitest
-- [ ] Setup React Testing Library
-- [ ] Setup `@testing-library/jest-dom`
-- [ ] Add test setup file (`vitest.setup.ts`)
-- [ ] Add Chrome API mock strategy:
-  - [ ] `chrome.storage.local`
-  - [ ] `chrome.alarms`
-  - [ ] `chrome.runtime.sendMessage/onMessage`
-  - [ ] `chrome.tabs` and `chrome.windows` stubs (basic)
-- [ ] Add helpers:
-  - [ ] fake timers utilities
-  - [ ] reset mocks per test
-- [ ] Add at least one passing unit test that uses chrome mocks
+- [x] Setup Vitest
+- [x] Setup React Testing Library
+- [x] Setup `@testing-library/jest-dom`
+- [x] Add test setup file (`vitest.setup.ts`)
+- [x] Add Chrome API mock strategy:
+  - [x] `chrome.storage.local`
+  - [x] `chrome.alarms`
+  - [x] `chrome.runtime.sendMessage/onMessage`
+  - [x] `chrome.tabs` and `chrome.windows` stubs (basic)
+- [x] Add helpers:
+  - [x] fake timers utilities
+  - [x] reset mocks per test
+- [x] Add at least one passing unit test that uses chrome mocks
 
 ---
 
