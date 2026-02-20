@@ -127,19 +127,19 @@
 
 ## 5) Time & Active Hours Utilities (Pure + Tested)
 
-- [ ] Create `src/shared/time.ts`
-- [ ] Implement:
-  - [ ] `parseHHMM()`
-  - [ ] `isWithinActiveHours()` (no overnight support)
-  - [ ] `nextActiveStart()`
-  - [ ] `computeNextReminderAt(now, settings)`
-- [ ] Tests (must be thorough):
-  - [ ] Exact start boundary
-  - [ ] Exact end boundary
-  - [ ] Just before end + interval would exceed end
-  - [ ] Outside hours (morning before start)
-  - [ ] Outside hours (evening after end)
-  - [ ] Invalid inputs (reject overnight and malformed)
+- [x] Create `src/shared/time.ts`
+- [x] Implement:
+  - [x] `parseHHMM()`
+  - [x] `isWithinActiveHours()` (no overnight support)
+  - [x] `nextActiveStart()`
+  - [x] `computeNextReminderAt(now, settings)`
+- [x] Tests (must be thorough):
+  - [x] Exact start boundary
+  - [x] Exact end boundary
+  - [x] Just before end + interval would exceed end
+  - [x] Outside hours (morning before start)
+  - [x] Outside hours (evening after end)
+  - [x] Invalid inputs (reject overnight and malformed)
 
 ---
 
