@@ -104,24 +104,24 @@
 
 ## 4) Storage Layer (chrome.storage.local)
 
-- [ ] Create typed wrapper `src/shared/storage.ts`
-- [ ] Implement:
-  - [ ] `getSettings()` (hydrates defaults)
-  - [ ] `setSettings(partial)` (merges patch)
-  - [ ] `getRuntimeState()`
-  - [ ] `setRuntimeState(partial)`
-- [ ] Define runtime state shape (persisted):
-  - [ ] `nextReminderAt` (timestamp | null)
-  - [ ] `skipUntil` (timestamp | null)
-  - [ ] `snoozeUsedForCurrentReminder` (boolean)
-  - [ ] `currentReminderVisible` (boolean)
+- [x] Create typed wrapper `src/shared/storage.ts`
+- [x] Implement:
+  - [x] `getSettings()` (hydrates defaults)
+  - [x] `setSettings(partial)` (merges patch)
+  - [x] `getRuntimeState()`
+  - [x] `setRuntimeState(partial)`
+- [x] Define runtime state shape (persisted):
+  - [x] `nextReminderAt` (timestamp | null)
+  - [x] `skipUntil` (timestamp | null)
+  - [x] `snoozeUsedForCurrentReminder` (boolean)
+  - [x] `currentReminderVisible` (boolean)
   - [ ] `session` (mode + windowId + tabId + startedAt + any needed ids)
-  - [ ] `lastLibraryFetchAt` (timestamp | null)
-- [ ] Add schema version key (for future migrations)
-- [ ] Tests:
-  - [ ] Empty storage → defaults returned
-  - [ ] Partial update merges correctly
-  - [ ] Runtime state read/write works
+  - [x] `lastLibraryFetchAt` (timestamp | null)
+- [x] Add schema version key (for future migrations)
+- [x] Tests:
+  - [x] Empty storage → defaults returned
+  - [x] Partial update merges correctly
+  - [x] Runtime state read/write works
 
 ---
 
